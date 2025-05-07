@@ -1,0 +1,17 @@
+{
+  "name": "foundry_cloud_princess",
+  "version": "1.0.0",
+  "description": "CSS compiler for the cloud princess system",
+  "scripts": {
+    "build": "gulp",
+    "compile:scss": "gulp css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-sass": "^6.0.1",
+    "gulp-sourcemaps": "^2.6.5"
+  }
+}
