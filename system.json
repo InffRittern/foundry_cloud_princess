@@ -1,0 +1,33 @@
+{
+  "id": "cloud_princess",
+  "title": "CloPs - Unofficial Cloud Princess",
+  "description": "CloPs - Unofficial Cloud Princess for FoundryVTT",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "InffRittern",
+      "flags": {}
+    }
+  ],
+  "esmodules": ["module/clops.js"],
+  "styles": ["css/clops.css"],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "12"
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "grid": {
+    "distance": 5,
+    "units": "ft"
+  },
+  "primaryTokenAttribute": "hitPoints",
+  "secondaryTokenAttribute": "wounds"
+}
